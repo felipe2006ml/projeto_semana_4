@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Cadastrar produtos</title>
+</head>
+<body>
+
+    <header>
+        <nav>
+            <a href="#">Cadastro</a>
+            <a href="consulta.html">Consulta</a>
+            <a href="cad-tipo.html">Cadastrar Tipo</a>
+        </nav>
+    </header>
+    
+    <main>
+        <div>
+            <h2>Cadastre um novo Produto</h2>
+        </div>
+        <container class="teste">
+            <form action="#">
+                <div >
+                    <h5>Nome do produto</h5>
+                    <input type="text" id="nome-produto">
+                </div>
+                <div >
+                    <h5>Nº de série</h5>
+                    <input type="text" id="num-serie" autocomplete="off">
+                </div>
+                <div>
+                    <h5>Tipo</h5>
+                    <select name="" id="tipo-prod">
+                        <option value="" disabled selected>Selecione</option>
+                        
+                    </select>
+                </div>
+
+                <div>
+                    <h5>Preço</h5>
+                    <input type="text" id="preco" autocomplete="off" value="R$">
+                </div>
+                <div>
+                    <h5>Caracteristicas</h5>
+                    <textarea name="" cols="25" rows="5" id="caract"></textarea>
+                </div>
+                <div id="button">
+                    <button class="botao" onclick="salvar()">Salvar</button>
+                </div>
+            </form>
+            
+        </container>
+        <img src="photo.png"alt="">
+    </main>
+
+    <script src="main.js"></script>
+    <script src="produtos.js"></script>
+</body>
+</html>

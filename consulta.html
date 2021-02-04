@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Consultar produtos</title>
+</head>
+<body>
+
+    <header>
+        <nav>
+            <a href="index.html">Cadastro</a>
+            <a href="consulta.html">Consulta</a>
+            <a href="cad-tipo.html">Cadastrar Tipo</a>
+        </nav>
+    </header>
+    
+    <main>
+        <div>
+            <div class="filtrar">
+                <label for="filtrar">Filtrar</label>
+                <input id="filtrar" type="text">
+            </div>
+            <table>
+                <thead id="tabela">
+                    <tr>
+                        <th>Nome do produto</th>
+                        <th>N° Serie</th>
+                        <th>Tipo</th>
+                        <th>Preço</th>
+                        <th>Caracteristicas</th>
+                    </tr>
+                </thead>
+            </table>
+        </div>
+    </main>
+
+    <script src="consulta.js"></script>
+    <script src="produtos.js"></script>
+</body>
+</html>

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <title>Consultar produtos</title>
+</head>
+<body>
+
+    <header>
+        <nav>
+            <a href="index.html">Cadastro</a>
+            <a href="consulta.html">Consulta</a>
+            <a href="cad-tipo.html">Cadastrar Tipo</a>
+        </nav>
+    </header>
+    
+    <main>
+        <div>
+            <h2>Gerenciar Tipo</h2>
+        </div>
+
+        <form action="#">
+            <div>
+                <label for="ncat">Nova cat:</label>
+                <input type="text" id="nCat">
+                <button id="addCat" onclick="addCate()">Add</button>
+            </div>
+            <ul></ul>
+        </form>
+    </main>
+
+    <script src="gerenciar.js"></script>
+</body>
+</html>

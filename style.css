@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto','sans-serif';
+}
+
+body {
+    background: rgb(153, 144, 144);
+}
+
+header {
+    width: 100%;
+    height: 30px;
+    background: rgb(97, 85, 85);
+    display: flex;
+    justify-content: flex-end;
+}
+
+nav {
+    padding: 3px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-size: 0.7em;
+    padding-right: 5px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+    background: gray;
+    padding: 10px;
+    color: rgb(166, 168, 137);
+    transition: 0.2s;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+main div h2 {
+    color: rgb(92, 88, 88);
+    font-size: 15px;
+    padding: 15px;
+    text-decoration: underline;
+}
+
+container {
+    background: rgb(97, 85, 85);
+    padding: 20px;
+    border-radius: 20px;
+    opacity: 0.7;
+}
+
+container h5 {
+    color: white;
+}
+
+#button {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    padding: 10px;
+}
+
+.botao{
+    color: rgb(97, 85, 85);
+    padding: 5px;
+}
+
+.botao:hover {
+    color: rgb(97, 85, 85);
+    width: 70px;
+    height: 40px;
+    border: 1px solid black;
+}
+
+.botao:active {
+    transition: transformY(-2000px);
+}
+
+img {
+    width:100px;
+    position: relative;
+    left: -130px;
+    bottom: 30px;
+}
+
+.teste {
+    transition: all 0.5s linear;
+}
+
+input, textarea, select{
+    background: #afb1b6;
+}
+
+/* Pagina consultas */
+
+.filtrar {
+    margin: 10px;
+}
+
+.filtrar label {
+    font-size: 0.8em;
+}
+
+.filtrar input {
+    width: 30%;
+    height: 4vh;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th {
+    font-size: 0.4em;
+    padding: 10px;
+}
+
+td {
+    font-size: 0.3em;
+    padding: 5px;
+}
+
+td, th {
+    border: 1px solid #ffffff;
+}
+
+tr:hover {
+    background: #a78181;
+}
+
+tr:nth-child(even) {
+    background-color: #685050;
+    color: white;
+  }
+
+tr:nth-child(even):hover {
+    background-color: #a78181;
+}
+
+/* Pagina cad-produtos */
+
+.liElement {
+    list-style: none;
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    background-color: rgb(97, 85, 85);
+}
+
+.liElement a {
+    margin-left: 20px;
+    text-decoration: none;
+    color: white;
+}
